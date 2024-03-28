@@ -25,14 +25,11 @@ public class LekiTableModel extends AbstractTableModel {
 
     @Override
     public int getRowCount() {
-        System.out.println(lekList.size());
         return lekList.size();
-
     }
 
     @Override
     public int getColumnCount() {
-        System.out.println(kol.length);
         return kol.length;
     }
 
